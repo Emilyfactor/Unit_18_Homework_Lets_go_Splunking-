@@ -110,9 +110,16 @@ Submit a screen shot of your report and the answer to the questions above.
 
 ![image](https://user-images.githubusercontent.com/96030770/166635206-083cb914-e7cf-499d-aafb-e4b96d0be9d5.png)
 
+![image](https://user-images.githubusercontent.com/96030770/166636729-1dc0f93a-b098-4b0e-b28c-abf7b51b0041.png)
+      
       
 3. Build an alert that monitors every day to see if this server has any critical vulnerabilities. If a vulnerability exists, have an alert emailed to `soc@vandalay.com`.
 
+![image](https://user-images.githubusercontent.com/96030770/166636873-bf989e90-fd49-4fab-8283-4185c0e5397b.png)
+
+![image](https://user-images.githubusercontent.com/96030770/166636972-53309e10-f0b3-4f41-b344-fbb852f4c06f.png)
+
+![image](https://user-images.githubusercontent.com/96030770/166636799-f56e5ed6-6512-4e4f-9394-3ad25635b998.png)
 
 
 Submit a screenshot of your report and a screenshot of proof that the alert has been created.
