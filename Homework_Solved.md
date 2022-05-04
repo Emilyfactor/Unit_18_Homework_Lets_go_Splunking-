@@ -140,10 +140,24 @@ Submit a screenshot of your report and a screenshot of proof that the alert has 
      - Look for the `name` field to find failed logins.
      - Note the attack lasted several hours.
 
-      
+![image](https://user-images.githubusercontent.com/96030770/166841311-baf505e3-d3fb-4925-9e6d-97eff490dac2.png)
+
+
 3. Determine a baseline of normal activity and a threshold that would alert if a brute force attack is occurring.
 
+   > Attacks starts Feb 21, 2020 between 8 am and 2 pm
+
+I would suggest normal activity would be 25 login attempts per hour before the Brute Force alert is triggerd.
+
 4. Design an alert to check the threshold every hour and email the SOC team at SOC@vandalay.com if triggered. 
+
+
+![image](https://user-images.githubusercontent.com/96030770/166842374-d1ecf038-4929-4d0b-82ae-a4abb48ae282.png)
+
+![image](https://user-images.githubusercontent.com/96030770/166842425-53bbe034-4e81-4825-b43f-7ab70a6a21d0.png)
+
+![image](https://user-images.githubusercontent.com/96030770/166842473-acdc5bec-1518-4d7d-bef8-08a06088f167.png)
+
 
 Submit the answers to the questions about the brute force timing, baseline and threshold. Additionally, provide a screenshot as proof that the alert has been created.
  
