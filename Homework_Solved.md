@@ -64,6 +64,11 @@ Not only were web servers taken offline by a DDOS attack, but upload and downloa
   
    Hint: Use the following format when for the `table` command: `| table fieldA  fieldB fieldC`
 
+Solution syntax: source="server_speedtest.csv" | eval ratio= UPLOAD_MEGABITS/DOWNLOAD_MEGABITS | table_time IP_ADDRESS DOWNLOAD_MEGABITS UPLOAD_MEGABITS ratio
+
+![image](https://user-images.githubusercontent.com/96030770/166628323-bc975b86-7279-4c27-b89d-5e251104dd32.png)
+
+
 4. Answer the following questions:
 
     - Based on the report created, what is the approximate date and time of the attack?
